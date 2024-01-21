@@ -1,4 +1,15 @@
 # 🚚 PITSTOP DELIVERY OPTIMIZATION 🚚 
+## Contributors 
+
+**🎸[Emmanuel](https://github.com/emman038)**
+
+**🎸[Faiz](https://github.com/FaizF7)**
+
+**🎸[Hezekiah](https://github.com/H323K14H)**
+
+**🎸[Nathan](https://github.com/Nathparmar)**
+
+**🎸[Rosie](https://github.com/rosiemiall)**
 
 ## Project Overview
 #### Brief: RainforestRetail handles deliveries with a manual system, delivery routes are planned by hand, and there is a long wait for parcel deliveries.
@@ -18,15 +29,14 @@ This project utilizes the Spring Boot framework for the backend and React for th
 6. [Features](#6-features)
 7. [Routes and Endpoints](#7-routes-and-endpoints)
 8. [Use Of External API](#8-use-of-external-api)
-9. [Contributors](#9-contributors)
 
 
 ##
 
 ## 1. Documentation
 The following links provide supporting documentation for our project aims, challenges, risks and target customers.
-- [Business Case](documentation/Capstone_Project_Business_Case.docx) NEEDS FILE CHANGE
-- Risk Register NEEEDS ADDING
+- [Business Case](documentation/Capstone_Project_Business_Case.pdf)
+- [Risk Register](documentation/Capstone_Project_Risk_Register.pdf)
 - [Personas](documentation/Diagrams/personas.png)
 - [Mid-Project Retrospective](documentation/Diagrams/Retrospective.pdf)
 
@@ -68,7 +78,7 @@ Follow the steps provided to run the application on your device...
 **Frontend Setup:**
    - Navigate to frontend_client
    - Run npm i to install libraries
-   - Insert external API key into LandingPage.js
+   - Insert external API key into Manager.js
    - Run npm start to Access the application at `http://localhost:3000`
 
 ```
@@ -97,11 +107,11 @@ Follow the steps provided to run the application on your device...
 
 
 ## 5. Structure and Diagrams
-**[Entity Relationship Diagram](documentation/Diagrams/Capstone_ERD_Diagram_v3.png)** NEEDS UPDATING?
+**[Entity Relationship Diagram](documentation/Diagrams/Capstone_ERD_Diagram_v3.png)**
 
 ![ERD](documentation/Diagrams/Capstone_ERD_Diagram_v3.png)
 
-**[Class Diagram](documentation/Diagrams/capstone_class_diagram.drawio.png)** NEEDS UPDATING 
+**[Class Diagram](documentation/Diagrams/capstone_class_diagram.drawio.png)**
 
 ![class_diagrams](documentation/Diagrams/capstone_class_diagram.drawio.png)
 
@@ -112,7 +122,11 @@ Follow the steps provided to run the application on your device...
 ![component](documentation/Diagrams/Components.png)
 
 
-## 6. Features
+## 6. Demo of the application
+
+[![Watch the video](https://github.com/H323K14H/BNTA_Capstone/assets/129006280/d0bf4582-e0e0-434a-bac2-60321308838c)](https://www.youtube.com/watch?v=bIeqJI0zucc)
+
+## 7. Features
 
 - **Route Optimization 🚚 :** The system calculates and suggests the most optimized routes for delivery drivers based on distance efficiency.
 
@@ -127,7 +141,7 @@ Follow the steps provided to run the application on your device...
 - **User-friendly Interface 💻 :** The React frontend ensures a modern and intuitive user interface, enhancing the overall user experience for drivers on the go.
 
 
-## 7. Routes and Endpoints
+## 8. Routes and Endpoints
 The following end points can be requested from our backend server...
 
 
@@ -215,7 +229,7 @@ The following end points can be requested from our backend server...
 }
 ```
 
-## 8. Use of External API 
+## 9. Use of External API 
 
 [Route Planner API from Geoapify](https://apidocs.geoapify.com/docs/route-planner/#api)
 
@@ -223,14 +237,4 @@ Implemented an external API in our backend to optimize the route using Route Pla
 
 Use of an API key: To access an API key, sign up for a free account, which has a limit of 3,000 credits a day.
 
-## 9. Contributors 
 
-**🎸Emmanuel**
-
-**🎸Faiz**
-
-**🎸Hezekiah**
-
-**🎸Nathan**
-
-**🎸Rosie**
